@@ -1,3 +1,4 @@
+import { url } from 'inspector'
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -8,11 +9,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+
+      colors: {
+        roofblue: '#05106D',
+        roofyelow: '#FF8B00',
+        roofgreen: '#008F75',
       },
+      backgroundImage: {
+        "footerBg": 'url("/footerbg.png")',
+      }
     },
   },
   plugins: [],
