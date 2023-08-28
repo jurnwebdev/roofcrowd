@@ -17,7 +17,9 @@ const config: Config = {
       },
       backgroundImage: {
         "footerBg": 'url("/footerbg.png")',
-      }
+        "heroBg": 'url("/hero.jpg")',
+        "howitworksBg": 'url("/howitworks.png")'
+      },
     },
   },
   plugins: [],
